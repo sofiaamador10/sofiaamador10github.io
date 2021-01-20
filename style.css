@@ -1,3 +1,76 @@
-h1{
-	color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;700&display=swap');
+body {
+  color: #222831;
+  font-family: 'Roboto';
+  background-color: #f1f1f1
+}
+
+h1 {
+  color: #ffd56b;
+  font-size: 45px
+}
+h2 {
+  color: #b83b5e;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ffd56b;
+  color: #b83b5e;
+  padding: 8px 12px;
+  border-radius: 6px
+}
+h1 b {
+  color: #b83b5e
+}
+.card {
+  margin: 20px auto;
+  padding:30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 70px 10px rgba(0,0,0,.1);
+  width: 500px
+  
+}
+img {
+   border-radius: 120px;
+}
+
+.citation {
+  color: grey;
+  margin-bottom: 30px
+}
+.center{
+  text-align: center; 
+ } 
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-projet{
+  height: 150px;
+  width: 200px;
+  border: 10px solid; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Poppins';
+  border-radius: 6px
+ 
+}
+
+.bg-yellow{
+  background-color: #f0c38e
+}
+
+.bg-babypink{
+  background-color: #f1aa9b
+}
+
+.bg-orange{
+  background-color: #cc7351
 }
